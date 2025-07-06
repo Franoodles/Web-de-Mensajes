@@ -1,0 +1,129 @@
+
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif; 
+      display: flex;
+      height: 100vh;
+      
+    }
+
+    
+    .Container-text {
+      width: 18%; 
+      background-color: #f5f5f5;
+      border-right: 1px solid #a0a0a0;
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .perfil {
+      padding: 20px;
+      display: flex;
+      border-bottom: 3px solid #ddd;
+    } 
+
+
+    .perfil img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .icon {
+    color: #010042;
+    cursor: pointer;
+    }
+     
+   
+
+    .nuevo-chat {
+      background-color: #A491D2;
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      margin: 5% 7%;
+      border-radius: 9px; 
+      cursor: pointer;
+    font-size: 100%;
+    }
+
+    .mensaje {
+      display: flex;
+      padding: 6%;
+      gap: 15px;
+      border-bottom: 1px solid #ddd;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+
+    .mensaje img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%; 
+      object-fit: cover;
+    }
+
+    .texto {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nombre {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .ultimo-msj {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .main {
+      flex: 1;
+      background-color: #e9e8e8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px; 
+      height: 100%;
+      width: 100%;
+    }
+
+    .main img {
+      width: 30%; 
+      height: 40%;
+      margin-bottom: 20px;
+    
+    }
+
+    .main p {
+      color: #555;
+    }
+
+    .main p strong {
+      color: black;
+    }
+
+    .ayuda{ 
+      background-color: #c5b9e2;
+      color: rgb(0, 0, 0);
+      padding: 20px 10%;
+      margin: 3% ;
+      border-radius: 9px; 
+      cursor: pointer;
+    font-size: 100% 
+    }
+
+
+
+  
+
+  
